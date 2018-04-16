@@ -191,6 +191,7 @@
 -define:UNITY_EDITOR_OSX
 -define:ENABLE_NATIVE_ARRAY_CHECKS
 -define:UNITY_TEAM_LICENSE
+'Assets/Image Effects/Pixel_Effect/PixelatedImageEffect.cs'
 'Assets/Imported_Assets/Extra_Dont_Touch/HologramShader-master/Assets/Demo/Scripts/AutoRotate.cs'
 'Assets/Imported_Assets/Extra_Dont_Touch/HologramShader-master/Assets/PostProcessing/Runtime/Attributes/GetSetAttribute.cs'
 'Assets/Imported_Assets/Extra_Dont_Touch/HologramShader-master/Assets/PostProcessing/Runtime/Attributes/MinAttribute.cs'
@@ -238,11 +239,11 @@
 'Assets/Imported_Assets/Extra_Dont_Touch/HologramShader-master/Assets/PostProcessing/Runtime/Utils/RenderTextureFactory.cs'
 'Assets/Imported_Assets/Extra_Dont_Touch/HologramShader-master/Assets/PostProcessing/Utilities/CustomMotionTexture/ExampleWheelController.cs'
 'Assets/Scripts/Ball/Ball_Collisions.cs'
+'Assets/Scripts/Camera/Camera_Always_At_Center.cs'
 'Assets/Scripts/Character_Controller/Add_Force_On_Button.cs'
 'Assets/Scripts/Character_Controller/Character_Rotation_With_Keyboard.cs'
 'Assets/Scripts/Character_Controller/Rotate_Arrow.cs'
-'Assets/Scripts/Character_Spawner.cs'
-'Assets/Scripts/Main_Camera_Controller.cs'
+'Assets/Scripts/Game_Management/Character_Spawner.cs'
 'Assets/Scripts/UI_Scripts/Fill_Bar_For_Charge.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Xml.Linq.dll'
