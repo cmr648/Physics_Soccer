@@ -2,9 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Rotate_Arrow : MonoBehaviour {
 
 	public float Rotate_Arrow_Speed;
+
+
+	public string Player_Axis; // creating a public string to edit and choose the player access that we are going to use
 
 	// Use this for initialization
 	void Start () {
@@ -22,6 +26,20 @@ public class Rotate_Arrow : MonoBehaviour {
 		if(Input.GetKey(KeyCode.LeftArrow)){ // if the left arrow has been pressed
 			transform.RotateAround (transform.parent.transform.position, Vector3.up, Time.deltaTime * -Rotate_Arrow_Speed); // actually rotating our object
 		}
+
+		if (Input.GetAxis (Player_Axis) > 0) { // using the input axis of the controller for right
+
+			transform.RotateAround (transform.parent.transform.position, Vector3.up, Time.deltaTime * Rotate_Arrow_Speed); // actually rotating our object
+
+		}
+
+		if (Input.GetAxis (Player_Axis) < 0) { // using the input axis of the controller for the left
+
+			transform.RotateAround (transform.parent.transform.position, Vector3.up, Time.deltaTime * -Rotate_Arrow_Speed); // actually rotating our object
+
+		}
+
+
 
 
 
