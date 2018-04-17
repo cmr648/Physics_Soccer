@@ -66,8 +66,8 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _PixelCollums: 1000
-    - _PixelRows: 1000
+    - _PixelCollums: 500
+    - _PixelRows: 500
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
