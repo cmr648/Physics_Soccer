@@ -895,10 +895,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Pixel_Material: {fileID: 2100000, guid: b9e4e36f951764704a9bad4ba3baa2c0, type: 2}
-  Amount_Of_Pixels_In_Scene: 500
+  Amount_Of_Pixels_In_Scene: 49
   Time_To_Transition: 3
   Max_Pixels: 500
-  Min_Pixels: 15
+  Min_Pixels: 0
   Can_Transition: 0
   Next_Level: Beginning_Scene
 --- !u!1 &1946844325
