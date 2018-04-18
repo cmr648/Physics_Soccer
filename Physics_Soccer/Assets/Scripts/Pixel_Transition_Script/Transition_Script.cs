@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-[ExecuteInEditMode]
 
 public class Transition_Script : MonoBehaviour {
 
 	public Material Pixel_Material; // creating a public reference for the material we want to edit
 
-	[Range(15,1000)] // creating a range
+	[Range(0,1000)] // creating a range
 	public int Amount_Of_Pixels_In_Scene; // creating a range for eht amount of pixels we want in both rows and collums
 
 	public float Time_To_Transition; // creating a public float based on the amount of time we want to transition

@@ -271,7 +271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Pixel_Material: {fileID: 2100000, guid: b9e4e36f951764704a9bad4ba3baa2c0, type: 2}
-  Amount_Of_Pixels_In_Scene: 188
+  Amount_Of_Pixels_In_Scene: 0
   Time_To_Transition: 3
   Max_Pixels: 500
   Min_Pixels: 0
@@ -692,6 +692,7 @@ GameObject:
   - component: {fileID: 2126332990}
   - component: {fileID: 2126332989}
   - component: {fileID: 2126332993}
+  - component: {fileID: 2126332994}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -768,10 +769,23 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2126332988}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fa52539acb30d462c85d0e6c0c36e022, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Pixel_Effect_Material: {fileID: 2100000, guid: b9e4e36f951764704a9bad4ba3baa2c0,
+    type: 2}
+--- !u!114 &2126332994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2126332988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fa77bd2f4df3479abda040219485ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Material_To_Apply_Shader: {fileID: 2100000, guid: ee0b9b75d4b904dff83d99c32cca545f,
     type: 2}
