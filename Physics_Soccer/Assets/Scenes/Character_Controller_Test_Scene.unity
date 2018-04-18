@@ -560,6 +560,7 @@ GameObject:
   - component: {fileID: 653448574}
   - component: {fileID: 653448573}
   - component: {fileID: 653448577}
+  - component: {fileID: 653448578}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -636,12 +637,25 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 653448572}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fa52539acb30d462c85d0e6c0c36e022, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Pixel_Effect_Material: {fileID: 2100000, guid: b9e4e36f951764704a9bad4ba3baa2c0,
+    type: 2}
+--- !u!114 &653448578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 653448572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fa77bd2f4df3479abda040219485ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Material_To_Apply_Shader: {fileID: 2100000, guid: ee0b9b75d4b904dff83d99c32cca545f,
     type: 2}
 --- !u!1 &758405337
 GameObject:
@@ -863,6 +877,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1915751897}
   - component: {fileID: 1915751898}
+  - component: {fileID: 1915751899}
   m_Layer: 0
   m_Name: Transition_Manager
   m_TagString: Untagged
@@ -889,7 +904,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1915751896}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cca1b7444c5e64f3c8b8eadc5afcab0c, type: 3}
   m_Name: 
@@ -901,6 +916,30 @@ MonoBehaviour:
   Min_Pixels: 0
   Can_Transition: 0
   Next_Level: Beginning_Scene
+--- !u!114 &1915751899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1915751896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a02738288c984393af89fdeca777856, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Transition_Material: {fileID: 2100000, guid: ee0b9b75d4b904dff83d99c32cca545f, type: 2}
+  Transition_Textures:
+  - {fileID: 2800000, guid: ba6a1098712f522418697e7a4893fb62, type: 3}
+  - {fileID: 2800000, guid: 9847281c7fd00f945b2084a536c4d400, type: 3}
+  - {fileID: 2800000, guid: 135e0911962cbb24098894598acf44b7, type: 3}
+  - {fileID: 2800000, guid: c5896b76872c676488ab81350f954ba3, type: 3}
+  - {fileID: 2800000, guid: fbe6e80cd9587334fb840031de89c672, type: 3}
+  - {fileID: 2800000, guid: ea1ad820d45466d4795f65b8bcdfaac9, type: 3}
+  - {fileID: 2800000, guid: ed5355cd5f09dcb4c9f33267d904d07a, type: 3}
+  Time_To_Transition: 2
+  Point_Of_Transition: 0
+  Next_Level: Character_Controller_Test_Scene
+  Can_Transition: 0
 --- !u!1 &1946844325
 GameObject:
   m_ObjectHideFlags: 0
