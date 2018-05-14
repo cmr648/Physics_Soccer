@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 23671069992320058}
   - component: {fileID: 54731236675106950}
   - component: {fileID: 64531745003829126}
+  - component: {fileID: 114159481923061702}
   - component: {fileID: 114692377038733144}
   - component: {fileID: 114827730179139940}
   m_Layer: 0
@@ -93,7 +94,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1185235240460578}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.8224208, y: 0.00049448013, z: -4.452836}
+  m_LocalPosition: {x: -2.8224208, y: 0.51, z: -2.58}
   m_LocalScale: {x: 1, y: 0.15617827, z: 1}
   m_Children:
   - {fileID: 224522367023456194}
@@ -113,6 +114,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 6b14fc5725a384f8caad15b378a1b7ae, type: 2}
   m_StaticBatchInfo:
@@ -226,6 +228,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Rotate_Arrow_Speed: 100
   Player_Axis: Player 1 Horizontal
+--- !u!114 &114159481923061702
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1185235240460578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbc555c23370c4e2c80a7c81bba65de2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114392650375090536
 MonoBehaviour:
   m_ObjectHideFlags: 1

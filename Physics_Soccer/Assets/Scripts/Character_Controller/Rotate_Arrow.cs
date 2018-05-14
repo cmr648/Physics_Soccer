@@ -10,6 +10,11 @@ public class Rotate_Arrow : MonoBehaviour {
 
 	public string Player_Axis; // creating a public string to edit and choose the player access that we are going to use
 
+  
+    public KeyCode Right_Arrow;
+
+    public KeyCode Left_Arrow;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -19,11 +24,11 @@ public class Rotate_Arrow : MonoBehaviour {
 	void Update () {
 
 
-		if(Input.GetKey(KeyCode.RightArrow)){ // if the right arrow has been pressed
+        if(Input.GetKey(Right_Arrow)){ // if the right arrow has been pressed
 		transform.RotateAround (transform.parent.transform.position, Vector3.up, Time.deltaTime * Rotate_Arrow_Speed); // actually rotating our object
 		}
 
-		if(Input.GetKey(KeyCode.LeftArrow)){ // if the left arrow has been pressed
+        if(Input.GetKey(Left_Arrow)){ // if the left arrow has been pressed
 			transform.RotateAround (transform.parent.transform.position, Vector3.up, Time.deltaTime * -Rotate_Arrow_Speed); // actually rotating our object
 		}
 
@@ -44,4 +49,6 @@ public class Rotate_Arrow : MonoBehaviour {
 
 
 	}
+
+   
 }
