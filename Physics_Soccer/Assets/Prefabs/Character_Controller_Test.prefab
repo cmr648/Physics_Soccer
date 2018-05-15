@@ -228,6 +228,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Rotate_Arrow_Speed: 100
   Player_Axis: Player 1 Horizontal
+  Right_Arrow: 0
+  Left_Arrow: 0
 --- !u!114 &114159481923061702
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -239,6 +241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbc555c23370c4e2c80a7c81bba65de2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Player_Assignment_Number: 0
 --- !u!114 &114392650375090536
 MonoBehaviour:
   m_ObjectHideFlags: 1

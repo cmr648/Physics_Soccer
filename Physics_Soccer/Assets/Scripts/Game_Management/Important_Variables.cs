@@ -20,6 +20,12 @@ public class Important_Variables : MonoBehaviour {
     public static KeyCode Player_3_Left;
     public static KeyCode Player_4_Left;
 
+    public static Material Material_Player_1;
+    public static Material Material_Player_2;
+    public static Material Material_Player_3;
+    public static Material Material_Player_4;
+
+    public List<Material> Player_Materials;
 
 
 
@@ -44,6 +50,11 @@ public class Important_Variables : MonoBehaviour {
 
         Player_4_Left = KeyCode.G;
         Player_4_Right = KeyCode.H;
+
+        Material_Player_1 = Player_Materials[0];
+        Material_Player_2 = Player_Materials[1];
+        Material_Player_3 = Player_Materials[2];
+        Material_Player_4 = Player_Materials[3];
 
 
 

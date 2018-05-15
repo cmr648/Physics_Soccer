@@ -10,6 +10,7 @@ public class Character_Assignment : MonoBehaviour {
 	void Start () {
         Assign_Keys(); // implementinng our assigning of different player keys
         Assign_Arrows(); // implementinng and assignninng
+        Assign_Mateirals(); // assigning materials to our players
 	}
 	
 	// Update is called once per frame
@@ -74,4 +75,42 @@ public class Character_Assignment : MonoBehaviour {
 
 
     }
+
+    void Assign_Mateirals(){
+
+        if (Player_Assignment_Number == 1)
+        { // if our player assignmennt number = 1
+
+            GetComponent<Renderer>().material = Important_Variables.Material_Player_1;
+
+
+        }
+        else if (Player_Assignment_Number == 2)
+        { // if our player assignmennt number = 1
+
+            GetComponent<Renderer>().material = Important_Variables.Material_Player_2;
+
+
+
+        }
+        else if (Player_Assignment_Number == 3)
+        { // if our player assignmennt number = 1
+           
+            GetComponent<Renderer>().material = Important_Variables.Material_Player_3;
+
+
+
+        }
+        else if (Player_Assignment_Number == 4)
+        { // if our player assignmennt number = 1
+
+            GetComponent<Renderer>().material = Important_Variables.Material_Player_4;
+
+
+
+        }
+
+
+    }
+
 }

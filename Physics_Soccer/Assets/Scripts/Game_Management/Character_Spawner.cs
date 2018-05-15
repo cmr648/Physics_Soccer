@@ -34,6 +34,7 @@ public class Character_Spawner : MonoBehaviour {
 		Assign_Player_Locations (); // implementing our assigin player locations function
 
 
+
 	}
 	
 	// Update is called once per frame
@@ -87,5 +88,8 @@ public class Character_Spawner : MonoBehaviour {
     }
 
 
+    }
+
+
 		
-}
+
